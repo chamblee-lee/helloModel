@@ -1,6 +1,6 @@
 <mvc:View controllerName="helloModel.controller.App"
-   xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
-<Shell>
+   xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" height="100%">
+<Shell appWidthLimited="false">
 	<App id="app" class = "myAppDemoWT" />
 </Shell>
 </mvc:View>

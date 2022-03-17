@@ -1,0 +1,10 @@
+<mvc:View
+	controllerName="helloModel.controller.Designer"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	height="100%">
+	<Panel headerText="{i18n>DesignerViewTitle}" height="100%">
+    	<Text text ='panel1' />
+	</Panel>
+</mvc:View>

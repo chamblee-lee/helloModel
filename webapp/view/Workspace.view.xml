@@ -7,21 +7,17 @@
 	height="100%">
 	<l:ResponsiveSplitter defaultPane="default">
 		<l:PaneContainer>
-			<l:SplitPane requiredParentWidth="400" id="default">
+			<l:SplitPane requiredParentWidth="200" id="default">
 				<l:layoutData>
-					<l:SplitterLayoutData size="{sizes>/pane1}" />
+					<l:SplitterLayoutData size="65%" />
 				</l:layoutData>
-				<Panel headerText="Minimum parent width 400" height="100%">
-					<Text text="panel 1" />
-				</Panel>
+				<mvc:XMLView viewName="helloModel.view.Designer"/>
 			</l:SplitPane>
-            <l:SplitPane requiredParentWidth="600">
+            <l:SplitPane requiredParentWidth="200">
 				<l:layoutData>
-					<l:SplitterLayoutData size="{sizes>/pane2}" />
+					<l:SplitterLayoutData size="35%" />
 				</l:layoutData>
-				<Panel headerText="Minimum parent width 600" height="100%">
-					<Text text="panel 2" />
-				</Panel>
+				<mvc:XMLView viewName="helloModel.view.Attributes"/>
 			</l:SplitPane>
 		</l:PaneContainer>
 	</l:ResponsiveSplitter>

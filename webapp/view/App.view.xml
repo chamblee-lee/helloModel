@@ -1,0 +1,6 @@
+<mvc:View controllerName="helloModel.controller.App"
+   xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+<Shell>
+	<App id="app" class = "myAppDemoWT" />
+</Shell>
+</mvc:View>

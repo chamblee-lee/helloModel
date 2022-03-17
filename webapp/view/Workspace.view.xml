@@ -1,0 +1,28 @@
+<mvc:View
+	controllerName="helloModel.controller.Workspace"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	height="100%">
+	<l:ResponsiveSplitter defaultPane="default">
+		<l:PaneContainer>
+			<l:SplitPane requiredParentWidth="400" id="default">
+				<l:layoutData>
+					<l:SplitterLayoutData size="{sizes>/pane1}" />
+				</l:layoutData>
+				<Panel headerText="Minimum parent width 400" height="100%">
+					<Text text="panel 1" />
+				</Panel>
+			</l:SplitPane>
+            <l:SplitPane requiredParentWidth="600">
+				<l:layoutData>
+					<l:SplitterLayoutData size="{sizes>/pane2}" />
+				</l:layoutData>
+				<Panel headerText="Minimum parent width 600" height="100%">
+					<Text text="panel 2" />
+				</Panel>
+			</l:SplitPane>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+</mvc:View>
